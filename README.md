@@ -1,4 +1,8 @@
-# Initial page
+---
+description: Here's my cool page description
+---
+
+# Testing the capabilities of this editor
 
 ## Getting Super Powers
 
@@ -8,13 +12,15 @@ Becoming a super hero is a fairly straight forward process:
 $ give me super-powers
 ```
 
-{% hint style="info" %}
- Super-powers are granted randomly so please submit an issue if you're not happy with yours.
+{% hint style="danger" %}
+ Super-powers are granted randomly so please submit an issue if you're not happy with yours. $$\sum_x x^2$$  also inline pics 
 {% endhint %}
 
-$$
-a = b \frac{1}{2}
-$$
+{% hint style="info" %}
+hold shift and **click** the plus to insert inline elements \(equations, pics, etc\) while typing
+
+ ![](.gitbook/assets/apod.jpg) 
+{% endhint %}
 
 Once you're strong enough, save the world:
 
@@ -26,13 +32,14 @@ echo 'You got to trust me on this, I saved the world'
 {% endcode %}
 
 {% tabs %}
-{% tab title="Demo 1" %}
+{% tab title="demo1.sh" %}
 ```bash
 # code 1
+echo "hello world"
 ```
 {% endtab %}
 
-{% tab title="More details" %}
+{% tab title="Another demo here" %}
 ```
 # some other code
 ```
